@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(144, 144, 144);
+}
+
+a:hover {
+    color: white;
+}
+
+body {
+    background-image: url(../imgPerfil/fondo.jpg);
+    background-position-x: 30%;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.contenedor {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 50px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 80px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.caja {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 250px 100px;
+    text-align: center;
+    box-shadow: 0px 0px 25px #121212;
+    backdrop-filter: blur(10px);
+    height: 500px;
+    border-radius: 1%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.contenedor img {
+    width: 150px;
+    border-radius: 3%;
+    opacity: 0.5;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.contenedor p {
+    color: rgb(167, 167, 167);
+    font-weight: 700;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.contenedor a img:hover {
+    border: 1px solid rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    box-shadow: 7px 5px 2px rgba(82, 82, 82, 0.337);
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+
+.texto-bienvenida {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 3px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+p {
+    color: white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.redes {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 100px;
+    position: relative;
+    top: 100px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.redes img {
+    width: 35px;
+    opacity: 0.7;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.redes img:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 500%;
+        height: 1300px;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .caja {
+        height: 1100px;
+        padding: 20px;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .contenedor {
+        display: block;
+        margin-top: 0px;
+        z-index: 1000;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .contenedor a img:focus {
+        border: 2px solid rgb(138, 138, 138);
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .contenedor img {
+        width: 150px;
+        border-radius: 3%;
+        opacity: 1;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    a:focus {
+        color: white;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .redes {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px;
+        grid-template-rows: 100px;
+        position: relative;
+        padding-top: 500px;
+        z-index: 500;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .redes img:focus {
+        opacity: 1;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .objetos {
+        border-bottom: 1px solid rgb(88, 88, 88);
+        margin: 5px;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .texto-bienvenida {
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 3px;
+        padding: -5px;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .contenedor a img:focus {
+        border: 1px solid rgb(54, 54, 54);
+        color: rgb(255, 255, 255);
+        opacity: 1;
+        box-shadow: 7px 5px 2px rgba(251, 251, 251, 0.337);
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        height: 1300px;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .contenedor {
+        display: block;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .caja {
+        height: 1050px;
+        padding: 20px;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    body {
+        background-position: 40%;
+        background-repeat: no-repeat;
+        background-size: 650%;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .contenedor a img:focus {
+        border: 2px solid rgb(138, 138, 138);
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    a:focus {
+        color: white;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+    .redes {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px;
+        grid-template-rows: 100px;
+        position: relative;
+        top: 100px;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+    }
+}
