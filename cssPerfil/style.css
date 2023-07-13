@@ -124,7 +124,7 @@ p {
     body {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 500%;
+        background-size: 600%;
         height: 1300px;
         transition-duration: 0.3s;
         transition-timing-function: ease;
@@ -218,9 +218,9 @@ p {
         transition-timing-function: ease;
     }
     body {
-        background-position: 40%;
+        background-position: 60%;
         background-repeat: no-repeat;
-        background-size: 950%;
+        background-size: 1500%;
         transition-duration: 0.3s;
         transition-timing-function: ease;
     }
